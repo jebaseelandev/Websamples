@@ -1,0 +1,228 @@
+/*Past Events*/
+
+#body {
+    width: 90%;
+    display: block;
+    margin: 20px auto;
+}
+
+.heading {
+    color: #de5d35;
+    font-size: 60px !important;
+    font-family: 'questrial', sans-serif;
+    text-align: center;
+}
+
+.col {
+    margin: 0px !important;
+}
+
+.pic {
+    width: 360px;
+    height: 363px;
+    margin-left: 10px;
+    border: 2px solid white;
+    box-shadow: 1px 1px 0.5px 2px lightgray;
+    border-radius: 10px;
+}
+
+.para {
+    padding-top: 20px;
+    /* width: 750px !important; */
+    padding-left: 40px !important;
+    padding-right: 10px;
+    font-size: 20px;
+    line-height: 2rem;
+    color: white;
+    font-family: 'questrial', sans-serif;
+    font-weight: 200;
+    background-color: #0091e1;
+    border-radius: 10px;
+}
+
+.para .mar {
+    margin-top: 70px !important;
+}
+
+.paragraph {
+    width: 90%;
+    color: #ffffff;
+    font-size: 20px !important;
+}
+
+.para .span {
+    font-size: 26px;
+    font-family: 'questrial', sans-serif;
+    font-weight: 600px;
+    text-shadow: 0px 2px rgb(49, 46, 46);
+}
+
+.paragraph .span {
+    font-size: 23px !important;
+    text-shadow: rgb(255 255 255 / 60%) 1px 1px 1px, rgb(0 0 0 / 60%) -1px -1px 1px;
+}
+
+
+/*Button*/
+
+#carouselExampleIndicators {
+    align-items: center;
+    display: block;
+    margin: 6px auto;
+    width: 88%;
+    height: 60%;
+}
+
+#carouselExampleCaptions {
+    align-items: center;
+    display: block;
+    margin: 6px auto;
+    width: 88%;
+    height: 60%;
+}
+
+.context .row .para .btn {
+    padding: 5px 10px !important;
+    font-size: 12px !important;
+    border-radius: 15px;
+    font-family: 'questrial', sans-serif;
+    background-color: #ffffff;
+    color: #0077b8;
+    float: right;
+    margin-right: 20px;
+}
+
+.arrow {
+    border: solid #0077b8;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+}
+
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+.container-fluid .col .btn:hover {
+    background-color: #0077b8;
+    color: #ffffff;
+}
+
+.container-fluid .col .btn:hover .arrow {
+    border: solid #ffffff;
+    border-width: 0 3px 3px 0;
+}
+
+
+/*Carousels*/
+
+.carousel-indicators button {
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50% !important;
+}
+
+@media (max-width:1320px) {
+    .para {
+        width: 60% !important;
+        margin: 15px;
+        padding: 15px;
+    }
+    #pic {
+        height: auto !important;
+    }
+    .pic {
+        /* height: 320px !important; */
+    }
+    #mar {
+        padding-bottom: 30px !important;
+    }
+    #carouselExampleIndicators {
+        margin-right: 130px;
+        width: 83.5%;
+    }
+    #carouselExampleCaptions {
+        align-items: center;
+        display: block;
+        margin-right: 130px;
+        width: 83.5%;
+    }
+}
+
+@media (max-width:1200px) {
+    .para {
+        position: relative;
+        /* width: 90% !important; */
+        padding: 15px;
+    }
+    .pic {
+        width: 35% !important;
+        height: 363px !important;
+    }
+}
+
+@media (max-width:1150px) {
+    .para {
+        width: 90% !important;
+        margin-top: 20px !important;
+        padding: 15px;
+    }
+    #pic {
+        height: 363px !important;
+    }
+    .pic {
+        width: 90% !important;
+    }
+}
+
+@media (max-width:1140px) {
+    .para {
+        width: 90% !important;
+        margin: 10px auto;
+        padding: 15px;
+    }
+    .pic {
+        display: block;
+        margin: 20px auto;
+        width: 90% !important;
+        padding: 8px;
+    }
+    #carouselExampleIndicators {
+        align-items: center;
+        display: block;
+        margin: 10px auto;
+        width: 80%;
+    }
+    #carouselExampleCaptions {
+        align-items: center;
+        display: block;
+        margin: 10px auto;
+        width: 80%;
+    }
+}
+
+@media (max-width:768px) {
+    .pic {
+        margin: 20px !important;
+        width: 90% !important;
+        padding: 8px;
+    }
+    #carouselExampleIndicators {
+        align-items: center;
+        display: block;
+        margin: 10px auto;
+        height: 55%;
+    }
+    #carouselExampleCaptions {
+        align-items: center;
+        display: block;
+        margin: 10px auto;
+        height: 55%;
+    }
+    .para {
+        font-size: 8px !important;
+        margin: 10px auto;
+        padding: 12px 6px 12px 12px !important;
+    }
+}

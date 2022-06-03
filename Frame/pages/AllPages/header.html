@@ -1,0 +1,398 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Header</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
+  <style>
+    body {
+      font-family: Montserrat, sans-serif;
+    }
+
+    .navbar-brand {
+      background-image: url("../logo.png");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain;
+      width: 210px;
+      height: 71px;
+    }
+
+    .navbar-bar-title .nav-item:hover {
+      background-color: #000;
+    }
+
+    nav ul li a:hover {
+      /* color: #000; */
+      text-decoration: underline;
+    }
+
+    .social-icon ul li a {
+      color: #fff !important;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    header nav::before {
+      background-color: #fff !important;
+    }
+
+    header {
+      background: #fff !important;
+    }
+
+    .social-links__item {
+      display: inline;
+      position: relative
+    }
+
+    .social-links__item a {
+      display: inline-block;
+      font-size: 20px;
+      width: 36px;
+      height: 36px;
+      line-height: 36px;
+      border-radius: 36px;
+      text-align: center;
+      color: #fff;
+      background-color: #50525b;
+      margin: 1px;
+      transition: .15s cubic-bezier(.19, 1, .22, 1)
+    }
+
+    @media (min-width:768px) {
+      .social-links__item a {
+        font-size: 28px;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        border-radius: 50px
+      }
+    }
+
+    @media (min-width:992px) {
+      .social-links__item a {
+        font-size: 36px;
+        width: 65px;
+        height: 65px;
+        line-height: 65px;
+        border-radius: 65px
+      }
+    }
+
+    .social-links__item a i {
+      -ms-transform: translateY(-1px);
+      transform: translateY(-1px)
+    }
+
+    .no-touch .social-links__item a:hover {
+      box-shadow: 0 0 0 2px #fff;
+      background-color: #fff
+    }
+  </style>
+  <link rel="stylesheet" href="#">
+  <link rel='stylesheet' id='font_awesome-css' href='../../css/font-awesome.min.css' type='text/css' media='all' />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    @-webkit-keyframes bgslide {
+      from {
+        background-position-x: 0;
+      }
+
+      to {
+        background-position-x: -200%;
+      }
+    }
+
+    @keyframes bgslide {
+      from {
+        background-position-x: 0;
+      }
+
+      to {
+        background-position-x: -200%;
+      }
+    }
+
+    .wpp-widget-placeholder {
+      margin: 0 auto;
+      width: 60px;
+      height: 3px;
+      background: #dd3737;
+      background: -webkit-gradient(linear, left top, right top, from(#dd3737), color-stop(10%, #571313), to(#dd3737));
+      background: linear-gradient(90deg, #dd3737 0%, #571313 10%, #dd3737 100%);
+      background-size: 200% auto;
+      border-radius: 3px;
+      -webkit-animation: bgslide 1s infinite linear;
+      animation: bgslide 1s infinite linear;
+    }
+  </style>
+  <style type="text/css" id="wp-custom-css">
+    .al-form label {
+      margin-bottom: 5px;
+      display: inline-block;
+    }
+
+    .al-form input[type="email"] {
+      padding: .5rem 1rem;
+      border-radius: 3px;
+      border: solid 1px #d2d2d2;
+      width: 100%;
+      max-width: 300px;
+    }
+
+    .al-form .al-input-field {
+      margin-bottom: 10px;
+    }
+
+    .al-form .al-errorValidationText {
+      color: red;
+    }
+
+    .al-form input[type="button"] {
+      display: inline-block;
+      text-decoration: none;
+      padding: 1.2rem 3rem;
+      color: #1b1c20;
+      cursor: pointer;
+      border: none;
+      background: #ffec00;
+      font-weight: 400;
+      text-transform: uppercase;
+      font-size: 2rem;
+      box-shadow: 0 1px 0 0 rgb(255 255 255 / 75%) inset, 0 2px 10px 0 rgb(0 0 0 / 15%);
+      border-radius: 1rem;
+      overflow: hidden;
+      margin-left: 0.5rem;
+      margin-right: 0.5rem;
+      margin-bottom: 0.5rem;
+      white-space: nowrap;
+      overflow: hidden;
+      color: #1b1c20;
+      text-shadow: 0 1px 0 rgb(255 255 255 / 75%);
+      background-color: #ffec00;
+      background: linear-gradient(to bottom, #ffec00 0, #ffc600 100%);
+    }
+
+    .ab-journey-highlight .btn--custom img {
+      max-height: 80px;
+    }
+
+    .ab-journey-highlight .btn--custom img:hover {
+      transform: none !important;
+    }
+
+    @media (max-width: 767px) {
+      .ab-journey-highlight .btn--custom img {
+        max-height: 56px;
+      }
+    }
+
+    ul li a i:hover {}
+  </style>
+  <style>
+    .cc-navbar {
+      display: block;
+    }
+
+    .cc-nav-social {
+      display: flex;
+      align-items: center;
+    }
+
+    .cc-nav-social li a {
+      width: 45px;
+      height: 45px;
+    }
+
+    .cc-nav li a.active {
+      /* color: #fff !important;
+        text-decoration: underline;
+        background-color: #000 !important; */
+    }
+
+    .cc-nav li a {
+      padding: 5px 15px !important;
+      color: #000 !important
+    }
+
+    .cc-nav li a:hover {
+      color: #fff !important;
+      text-decoration: underline;
+    }
+
+    .cc-logo:hover {
+      -ms-transform: scale(1.05);
+      transform: scale(1.05);
+    }
+
+    header nav::before {
+      content: none !important;
+    }
+
+    .container-fluid {
+      padding-left: 0px !important;
+      padding-right: 0px !important;
+    }
+
+    @media (min-width:992px) {
+      .cc-nav-social li a {
+        width: 50px;
+        height: 50px;
+      }
+
+      .cc-header {
+        height: 80pxs;
+      }
+
+      .cc-nav-social li a i::before {
+        font-size: 26px;
+      }
+
+      .cc-nav li a {
+        padding: 30px 15px !important;
+        color: #000 !important
+      }
+    }
+
+    @media (max-width:991px) {
+      .social-icon ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+      }
+    }
+
+    .container-fluid:after,
+    .container-fluid:before {
+      content: none !important;
+      display: block !important
+    }
+
+    .no-touch .social-links__item a:hover {
+      box-shadow: 0 0 0 2px #fff;
+      background-color: #fff
+    }
+
+    .social-links__item--facebook a {
+      background-color: #3b5998
+    }
+
+    .no-touch .social-links__item--facebook a:hover {
+      box-shadow: 0 0 0 2px #3b5998;
+      color: #3b5998 !important;
+    }
+
+    .social-links__item--twitter a {
+      background-color: #00aced
+    }
+
+    .no-touch .social-links__item--twitter a:hover {
+      box-shadow: 0 0 0 2px #00aced;
+      color: #00aced !important
+    }
+
+    .social-links__item--flickr a {
+      background-color: #ff0084
+    }
+
+    .no-touch .social-links__item--flickr a:hover {
+      box-shadow: 0 0 0 2px #ff0084;
+      color: #ff0084
+    }
+
+    .social-links__item--instagram a {
+      background-color: #517fa4
+    }
+
+    .no-touch .social-links__item--instagram a:hover {
+      box-shadow: 0 0 0 2px #517fa4;
+      color: #517fa4 !important
+    }
+
+    .social-links__item--linkedin a {
+      background-color: #007bb5
+    }
+
+    .no-touch .social-links__item--linkedin a:hover {
+      box-shadow: 0 0 0 2px #007bb5;
+      color: #007bb5 !important
+    }
+
+    .social-links__item--youtube a {
+      background-color: #b00
+    }
+
+    .no-touch .social-links__item--youtube a:hover {
+      box-shadow: 0 0 0 2px #b00;
+      color: #b00 !important
+    }
+  </style>
+</head>
+
+<body>
+  <header class=" no-touch cc-header" style="overflow-x: hidden;">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white py-0 px-1 px-md-4 px-xl-5 mx-xl-5">
+      <div class="container-fluid px-xl-5 mx-xl-5">
+        <a class="navbar-brand cc-logo" href="#"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse text-center cc-navbar" id="navbarNav">
+          <ul class="navbar-nav ms-md-auto gap-2 navbar-bar-title cc-nav">
+            <li class="nav-item rounded">
+              <a class="nav-link  uppercase" aria-current="page" href="#">HOME</a>
+            </li>
+            <li class="nav-item rounded ">
+              <a class="nav-link" href="#">VISION</a>
+            </li>
+            <li class="nav-item rounded">
+              <a class="nav-link" href="#">ABOUT</a>
+            </li>
+            <li class="nav-item rounded">
+              <a class="nav-link active" href="#">MISSION</a>
+            </li>
+            <li class="nav-item rounded">
+              <a class="nav-link" href="#">CAREERS</a>
+            </li>
+          </ul>
+        </div>
+        <!--Social icons-->
+        <!-- <div class="collapse navbar-collapse social-icon mx-5 my-4 my-lg-0 mx-lg-0" id="navbarNav">
+          <ul
+            class="navbar-nav ms-md-auto gap-2 nav__social-links social-links social-links--small cc-nav-social pr-lg-5">
+            <li class="nav-item rounded social-links__item social-links__item--facebook">
+              <a class="nav-link active" aria-current="page" href="#"
+                target="_blank"><i class="fa fa-facebook-f"></i></a>
+            </li>
+            <li class="nav-item rounded social-links__item social-links__item--linkedin">
+              <a class="nav-link" href="#" target="_blank"><i
+                  class="fa fa-linkedin"></i></a>
+            </li>
+            <li class="nav-item rounded social-links__item social-links__item--youtube">
+              <a class="nav-link" href="#" target="_blank"><i
+                  class="fa fa-youtube"></i></a>
+            </li>
+            <li class="nav-item rounded social-links__item social-links__item--instagram">
+              <a class="nav-link" href="#" target="_blank"><i
+                  class="fa fa-instagram"></i></a>
+            </li>
+          </ul>
+        </div> -->
+      </div>
+    </nav>
+  </header>
+
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"></script>
+
+
+</body>
+
+</html>
